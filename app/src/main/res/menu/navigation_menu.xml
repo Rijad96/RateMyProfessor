@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/nav_home"
+        android:title="Home"
+        android:icon="@drawable/home"/>
+
+    <item
+        android:id="@+id/nav_post"
+        android:title="New Post"
+        android:icon="@drawable/add_post"/>
+
+    <item
+        android:id="@+id/nav_profile"
+        android:title="Profile"
+        android:icon="@drawable/profile_icon"/>
+
+
+    <item android:id="@+id/nav_faculty"
+        android:title="Faculty"
+        android:icon="@drawable/faculty"/>
+
+    <item android:id="@+id/nav_my_professors"
+        android:title="My Professors"
+        android:icon="@drawable/teacher"/>
+
+    <item android:id="@+id/nav_find_professors"
+        android:title="Find Professors"
+        android:icon="@drawable/search"/>
+
+    <item android:id="@+id/nav_settings"
+        android:title="Settings"
+        android:icon="@drawable/settings"/>
+
+    <item android:id="@+id/nav_logout"
+        android:title="Log out"
+        android:icon="@drawable/logout"/>
+
+</menu>

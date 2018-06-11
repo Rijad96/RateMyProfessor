@@ -1,0 +1,59 @@
+{
+  "project_info": {
+    "project_number": "583696238976",
+    "firebase_url": "https://ratemyprofessor-5a760.firebaseio.com",
+    "project_id": "ratemyprofessor-5a760",
+    "storage_bucket": "ratemyprofessor-5a760.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:583696238976:android:66a3b815e3618722",
+        "android_client_info": {
+          "package_name": "com.example.rijad.ratemyprofessor"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "583696238976-ks7ina6c1qdg9865jbpjs4bmm309ivsu.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.rijad.ratemyprofessor",
+            "certificate_hash": "e75f4912e480cf2a2294fc179673f61cba67e6a6"
+          }
+        },
+        {
+          "client_id": "583696238976-l1236b20kv95bp652n9mbf0c1qm6ihgo.apps.googleusercontent.com",
+          "client_type": 3
+        },
+        {
+          "client_id": "583696238976-l1236b20kv95bp652n9mbf0c1qm6ihgo.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDU_XkLTt1uO3wJYoH92xImRMF4ZAQSuCo"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "583696238976-l1236b20kv95bp652n9mbf0c1qm6ihgo.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
