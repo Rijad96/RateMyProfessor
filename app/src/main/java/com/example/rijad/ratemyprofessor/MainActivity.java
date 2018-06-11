@@ -189,7 +189,6 @@ public class MainActivity extends AppCompatActivity
                                             LikeChecker = false;
                                         }
                                     }
-
                             }
                             @Override
                             public void onCancelled(DatabaseError databaseError) {
@@ -214,21 +213,25 @@ public class MainActivity extends AppCompatActivity
                                         DislikeChecker = false;
                                     }
                                 }
-
                             }
                             @Override
                             public void onCancelled(DatabaseError databaseError) {
-
                             }
                         });
+                    }
+                });
+                viewHolder.CommentpostButton.setOnClickListener(new View.OnClickListener() {
+                    @Override
+                    public void onClick(View v) {
+                        Intent commentPostIntent = new Intent(MainActivity.this, CommentsActivity.class);
+                        commentPostIntent.putExtra("Post Key", PostKey);
+                        startActivity(commentPostIntent);
                     }
                 });
             }
         };
         postList.setAdapter(firebaseRecyclerAdapter);
     }
-
-
 
     public static class PostsViewHolder extends RecyclerView.ViewHolder
     {
@@ -296,6 +299,7 @@ public class MainActivity extends AppCompatActivity
 
                 }
             });
+
         }
 
         public void setFullname(String fullname)
